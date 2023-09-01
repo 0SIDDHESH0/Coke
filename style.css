@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+html,body{
+    height: 100%; width: 100%;
+    background-color: #222;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Navigation Section Start */
+nav{
+    height: 10vh;
+    display: flex; align-items: center;
+    justify-content: space-around;
+    font-size: 1vw;
+}
+#nav-sec a i{
+    padding-right: 0.5vw;
+}
+#nav-sec2{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2vw;
+}
+#nav-sec2 .line{
+    height: 0.2vh; width: 7vw;
+    background-color: #f23;
+}
+#nav-sec2 img{
+    width: 9vw;
+}
+#nav-sec2 .nav-img{
+    display: flex;
+    align-items: center;
+}
+/* Navigation Section End */
+/* Main Section Start */
+main{
+    height: 90vh; display: flex;
+}
+#main-sec1{
+    height: 90vh; width: calc(100%/3);
+    display: flex; justify-content: center;
+    align-items: start; flex-direction: column;
+    gap: 2vw; padding-left: 2.7vw;
+}
+.main-txt{
+    font-size: 4vw; line-height: 1;
+    font-weight: 600;
+}
+.main-txt span{
+    color: #f23;
+    font-weight: 300;
+}
+.main-sub-txt{
+    opacity: 0.7;
+    font-size: 1vw;
+}
+#main-btn{
+    display: flex;
+    gap: 2vw; align-items: center;
+}
+#main-btn button{
+    background-color: #f23;
+    border: none; outline: none;
+    padding: 1vw 1.5vw; font-size: 1vw;
+    font-weight: 600; color: #fff;
+    letter-spacing: 0.1vw; 
+    border-radius: 50px; 
+    cursor: pointer;
+}
+#main-btn span{
+    color: #f23;
+    font-size: 1.5vw;
+}
+#main-sec2{
+    position: relative;
+    height: 90vh; width: calc(100%/3);
+    display: grid; place-items: center; 
+}
+.main-gate{
+    height: 75%; width: 60%; display: grid;
+    background-image: url(Images/Coca-Cola-Background.jpg);
+    background-size: center; 
+    background-position: center; place-items: center;
+    background-repeat: no-repeat; 
+    border-radius: 500px 500px 0 0; 
+}
+#main-sec2 .bottle{
+    width: 25vw; height: 85vh;
+    position: absolute; filter: brightness(120%);
+}
+.capsule{
+    height: 5vh; width: 10vw; padding: 0.2vw 0.5vw 0.2vw 0.3vw;
+    background-color: #333; top: 17vw; gap: 5px;
+    position: absolute; justify-content: space-around;
+    flex-wrap: wrap; display: flex; right: 0vw;
+    border-radius: 50px; align-items: center;
+}
+.capsule .coke-model{
+    border-radius: 100%;
+    height: 4vh; width: 2vw;
+}
+.capsule-txt-sec{
+    display: flex; font-size: 0.9vw;
+    flex-direction: column;
+}
+.capsule-sub-txt{
+    font-size: 0.6vw; color: #eb6;
+    font-weight: 600;
+}
+#main-sec3{
+    height: 90vh; width: calc(100%/3);
+    display: flex; justify-content: center;
+    align-items: center; flex-direction: column;
+    gap: 2vw;
+}
+.main-ctn{
+    display: flex; opacity: 0.5;
+    justify-content: space-between;
+    width: 80%; font-size: 1.3vw;
+    font-weight: 400;
+}
+.main-ctn h4{
+    border-bottom: 1px solid;
+    width: 60%; padding-bottom: 0.5vw;
+}
+.main-ctn:nth-child(3){
+    opacity: 1;
+}
+.main-des h4{
+    opacity: 1;
+    border: none;
+}
+#main-sec3 p{
+    width: 60%; opacity: 0.7;
+    margin-right: 20%; font-size: 1vw;
+}
+/* Main Sectino End */
